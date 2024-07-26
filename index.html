@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="app">
+      <h2 class="mb-3 text-center">Todo App</h2>
+      <form action="" id="form" >
+ <input type="text"  id="my-input" class="form-control"> 
+ <div class="error">
+
+ </div>
+ <textarea name="" id="text-area"  rows="2" class="form-control"></textarea>
+<input type="date"  id="date" class="form-control">
+<!-- <div id="addNew">
+  <span>Add new Task</span> 
+  <i class="fas fa-plus"></i>
+</div> -->
+<button type="submit" id="submit" class="bg-primary text-white form-control">Add New task</button>
+      </form>
+     
+      <h4 class="text-center my-2">Task</h4>
+      <div class="tasks">
+        <div class="task">
+          <span class="fw-bold">Task 1</span> <br>
+          <span class="text-secondary small">2024-7-26</span>
+          <p>Clean the house</p>
+          <span id="span">
+            <i class="fa-solid fa-rotate-left" id="refresh"></i>
+            <i class="fa-solid fa-check" id="check"></i>
+            <i class="fas fa-trash-alt" onclick="deleteTask(this)" id="trash"></i> </span>
+      </div>
+        <div class="task">
+          <span class="fw-bold">Task 1</span> <br>
+          <p>Clean the house</p>
+          <span class="text-secondary small">2024-7-26</span>
+          
+          <span id="span">
+            <i class="fa-solid fa-rotate-left" id="refresh"></i>
+            <i class="fa-solid fa-check" id="check"></i>
+            <i class="fas fa-trash-alt" id="trash" onclick = "deleteTask(this)" ></i> </span>
+      </div>
+        </div>
+      
+      </div>
+    </div>
+
+    <!-- script  -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

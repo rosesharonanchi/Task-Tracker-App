@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+}
+.app {
+  width: 25rem;
+  min-height: 20rem;
+  border: solid 5px #abcea1;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+#addNew {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+#addNew i {
+  background-color: #abcea1;
+  padding: 0.2rem;
+}
+
+.task {
+  background-color: #e5e5e5;
+  padding: 0.5rem;
+  border: solid 3px #abcea1;
+  border-radius: 5px;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.task #span {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  align-items: center;
+}
+#span i {
+  cursor: pointer;
+}
+
+#form * {
+  margin-bottom: 0.5rem;
+}
+.error , #trash{
+  color: red;
+
+}
+#check ,  #refresh{
+  color: green;
+}
+#refresh{
+  display: none;
+  bor
+}
