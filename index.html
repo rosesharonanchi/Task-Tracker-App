@@ -35,22 +35,26 @@
       <h4 class="text-center my-2">Task</h4>
       <div class="tasks">
         <div class="task">
-          <span class="fw-bold">Task 1</span> <br>
-          <span class="text-secondary small">2024-7-26</span>
-          <p>Clean the house</p>
+          <span class="fw-bold">Task 1</span> 
+          <span>
+            <p>Clean the house</p>
+            <span class="small">2024-7-26</span>
+          </span>
           <span id="span">
-            <i class="fa-solid fa-rotate-left" id="refresh"></i>
-            <i class="fa-solid fa-check" id="check"></i>
+            <i class="fa-solid fa-rotate-left" id="refresh" onclick = "unMarkAsComplete(this)"></i>
+            <i class="fa-solid fa-check" id="check" onclick = "markAsComplete(this)"></i>
             <i class="fas fa-trash-alt" onclick="deleteTask(this)" id="trash"></i> </span>
       </div>
         <div class="task">
-          <span class="fw-bold">Task 1</span> <br>
-          <p>Clean the house</p>
-          <span class="text-secondary small">2024-7-26</span>
+          <span class="fw-bold">Task 1</span> 
+          <span>
+            <p>Clean the house</p>
+            <span class="small">2024-7-26</span>
+          </span>
           
           <span id="span">
-            <i class="fa-solid fa-rotate-left" id="refresh"></i>
-            <i class="fa-solid fa-check" id="check"></i>
+            <i class="fa-solid fa-rotate-left" id="refresh" onclick = "unMarkAsComplete(this)" ></i>
+            <i class="fa-solid fa-check" id="check" onclick = "markAsComplete(this)" ></i>
             <i class="fas fa-trash-alt" id="trash" onclick = "deleteTask(this)" ></i> </span>
       </div>
         </div>

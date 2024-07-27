@@ -33,7 +33,7 @@ body {
 .task {
   background-color: #e5e5e5;
   padding: 0.5rem;
-  border: solid 3px #abcea1;
+  
   border-radius: 5px;
 }
 .tasks {
@@ -63,5 +63,5 @@ body {
 }
 #refresh{
   display: none;
-  bor
+ 
 }
